@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AIMGPT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="extension-body">
+        <div>
+            <label for="textInput">Enter something:</label>
+            <textarea id="textInput" placeholder="Type here..."></textarea>
+        </div>
+
+        <br>
+
+        <div class="gpt-buttons">
+            <button id="gemini">Use AIMGPT</button>
+            <div id="loadingSpinner" class="hidden"></div>
+        </div>
+        <br>
+
+        <div class="init-hide">
+            <div class="copyable-box">
+                <label for="copyText">Magic Reply</label>
+                <textarea id="copyText" readonly>Hello, this is copyable text!</textarea>
+                <button id="copyToClipboard">Copy to Clipboard</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>

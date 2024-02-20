@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "AIMGPT",
+    "version": "1.0",
+    "description": "AIMGPT - Use Gemini Pro to improve your writing, Icon created by Iconfromus - Flaticon",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "aimgpt.html",
+        "default_title": "Click to open popup"
+    }
+}
