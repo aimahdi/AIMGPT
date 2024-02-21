@@ -9,7 +9,7 @@ This is a chrome extension that uses Gemini pro model's REST API to improve the 
 - In the config.js file, put the following line export const API_KEY = "PUT_YOUR_API_KEY_HERE";
 - Replace PUT_YOUR_API_KEY_HERE with your GEMINI API key
 - To get an API key from GEMINI, please [visit here](https://aistudio.google.com/app/apikey)
-- Open the [Chrome Extensions page](chrome://extensions/), enable "Developer mode," and click "Load unpacked." Select the folder containing your extension files.
+- Open the [Chrome Extensions page](<chrome://extensions>), enable "Developer mode," and click "Load unpacked." Select the folder containing your extension files.
 - That's it, you will see that the extension is working.
 
 
