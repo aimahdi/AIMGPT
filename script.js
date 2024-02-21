@@ -39,7 +39,12 @@ async function getDataFromGemini(event) {
 
 
         if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
+            
+            copyText.value = `HTTP error! Status: ${response.status}`;
+
+        hiddenColumn.style.display = 'block';
+
+        toggleLoading(false);
         }
 
         const data = await response.json();
@@ -51,7 +56,12 @@ async function getDataFromGemini(event) {
         toggleLoading(false);
 
     } catch (error) {
-        console.error('Error:', error.message);
+
+        copyText.value = 'Error:' +error.message;
+
+        hiddenColumn.style.display = 'block';
+
+        toggleLoading(false);
     }
 
 }
